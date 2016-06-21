@@ -146,21 +146,21 @@ return {
                     ..'`/c` <feedback> : send a feedback/report a bug/ask a question to my creator. _ANY KIND OF SUGGESTION OR FEATURE REQUEST IS WELCOME_. He will reply ASAP\n'
                     ..'`/help` : show this message.'
 		            ..'\n\nIf you like this bot, please leave the vote you think it deserves [here](https://telegram.me/storebot?start=groupbutler_bot)',
-		    private = 'Hey, *&&&1*!\n'
-                    ..'I\'m a simple bot created in order to help people to manage their groups.\n'
-                    ..'\n*What can I do for you?*\n'
-                    ..'Wew, I have a lot of useful tools!\n'
-                    ..'• You can *kick or ban* users (even in normal groups) by reply/username\n'
-                    ..'• Set rules and a description\n'
-                    ..'• Turn on a configurable *anti-flood* system\n'
-                    ..'• Customize the *welcome message*, also with gif and stickers\n'
-                    ..'• Warn users, and kick/ban them if they reach a max number of warns\n'
-                    ..'• Warn or kick users if they send a specific media\n'
-                    ..'...and more, below you can find the "all commands" button to get the whole list!\n'
-                    ..'\nTo use me, *you need to add me as administrator of the group*, or Telegram won\'t let me work! (if you have some doubts about this, check [this post](https://telegram.me/GroupButler_ch/63))'
-                    ..'\nYou can report bugs/send feedbacks/ask a question to my creator just using "`/c <feedback>`" command. EVERYTHING IS WELCOME!',
-            group_success = '_I\'ve sent you the help message in private_',
-            group_not_success = '_Please message me first so I can message you_',
+		    private = 'سلام, *&&&1*!\n'
+                    ..'من\'یک ربات مدیریت گروه هستم که از اسپمرا جلوگیری میکنم.\n'
+                    ..'\n*شاید بگی من چجوریم😶?*\n'
+                    ..'خوب باید بگم من کلی ابزار های مفید و عالی دارم😉\n'
+                    ..'• تو میتونی به کمک من افراد رو اخراج کنی و اونم با یوزر نیم و حتی رپلای😳\n'
+                    ..'• و برا گروهت قوانین خاصی تنظیم کنی🏁\n'
+                    ..'• و حتی میتونی جلوی  اتکرا و اسپمرا رو بگیری💥\n'
+                    ..'• میتونی تنظیمم کنی تا به افراد تازه وارد خوش امد بگم حتی با استیکر و تصویر متحرک🌟\n'
+                    ..'• میتونی افراد گروهتو اخراج و یا بن و یا بهشون اخطار بدی😯\n'
+                    ..'• میتونی مدیا رو قفلش کنی یا قبلش اخطار تنظیم کنی⚠\n'
+                    ..'...و خیلی چیزای دیگه که میتونی با دکمه همه دستورات ببینیش ✴\n'
+                    ..'\nالبته برا استفاده از من باید منو ادمین گروه کنیا😶, و از تلگرام لذت ببری گلم🌷\'و منم که تو گروه کلی کمکت میکنم (اگه نمیدونی چی میگم این پست رو بخون, این [this post](https://telegram.me/GroupButler_ch/63))'
+                    ..'\n گلم اگه مشکلی دیدی گزارش بده ولی اول جملت بذار "`! <feedback>`" . منم خوشحال میشم🌷!',
+            group_success = '_من\'تو پیویت فرستادم🌹_',
+            group_not_success = '_لطفا اول یه پیام تو پیویم بده🌷_',
             initial = 'Choose the *role* to see the available commands:',
             kb_header = 'Tap on a button to see the *related commands*'
         },

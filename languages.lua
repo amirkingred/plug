@@ -1,12 +1,12 @@
 return {
     en = {
         status = {
-            kicked = '&&&1 is banned from this group',
-            left = '&&&1 left the group or has been kicked and unbanned',
-            administrator = '&&&1 is an Admin',
-            creator = '&&&1 is the group creator',
-            unknown = 'This user has nothing to do with this chat',
-            member = '&&&1 is a chat member'
+            kicked = '&&&1 بن شده در این گروه',
+            left = '&&&1 از گروه رفته و یا اخراج شده',
+            administrator = '&&&1ادمین هستش',
+            creator = '&&&1 سازنده گروه هست',
+            unknown = 'این فرد در گروه مقامی ندارد',
+            member = '&&&1 فرد معمولی هستش'
         },
         getban = {
             header = '*Global stats* for ',
@@ -14,27 +14,27 @@ return {
             kick = 'Kick: ',
             ban = 'Ban: ',
             tempban = 'Tempban: ',
-            flood = 'Removed for flood: ',
-            warn = 'Removed for warns: ',
-            media = 'Removed for forbidden media: ',
-            arab = 'Removed for arab chars: ',
-            rtl = 'Removed for RTL char: ',
-            kicked = '_Kicked!_',
-            banned = '_Banned!_'
+            flood = 'حذف شد به خاطر اتک زدن: ',
+            warn = 'حذف شد به خاطر اخطار گرفتن: ',
+            media = 'حذف شد به خاطر ارسال مدیا: ',
+            arab = 'حذف شد به دلیل فارسیچت کردن: ',
+            rtl = 'حذف ار تی ال: ',
+            kicked = '_اخراج شد!_',
+            banned = '_بن شد!_'
         },
         bonus = {
-            general_pm = '_I\'ve sent you the message in private_',
+            general_pm = '_من\'فرستادم تو پیویت گل من_',
             no_user = 'I\'ve never seen this user before.\nIf you want to teach me who he is, forward me a message from him',
-            the_group = 'the group',
-            adminlist_admin_required = 'I\'m not a group Admin.\n*Only an Admin can see the administrators list*',
+            the_group = 'گروهه دیگه',
+            adminlist_admin_required = 'من\'تو گروه هنوز ادمین نشدم.\n*فقط ادمینا میتونن به این چیزا دسترسی داشته باشن 😆*',
             settings_header = 'Current settings for *the group*:\n\n*Language*: `&&&1`\n',
             reply = '*Reply to someone* to use this command, or write a *username*',
             too_long = 'This text is too long, I can\'t send it',
-            msg_me = '_Message me first so I can message you_',
+            msg_me = '_اول تو بیا پیوی😐_',
             menu_cb_settings = 'Tap on an icon!',
             menu_cb_warns = 'Use the row below to change the warns settings!',
-            menu_cb_media = 'Tap on a switch!',
-            tell = '*Group ID*: &&&1',
+            menu_cb_media = 'فشار بده رو سوییچ!',
+            tell = '*ایدی گروه🔩*: &&&1',
         },
         not_mod = 'You are *not* a moderator',
         breaks_markdown = 'This text breaks the markdown.\nMore info about a proper use of markdown [here](https://telegram.me/GroupButler_ch/46).',
@@ -42,27 +42,27 @@ return {
         extra = {
             setted = '&&&1 command saved!',
 			usage = 'Write next to /extra the title of the command and the text associated.\nFor example:\n/extra #motm stay positive. The bot will reply _\'Stay positive\'_ each time someone writes #motm',
-            new_command = '*New command set!*\n&&&1\n&&&2',
-            no_commands = 'No commands set!',
-            commands_list = 'List of *custom commands*:\n&&&1',
-            command_deleted = '&&&1 command have been deleted',
-            command_empty = '&&&1 command does not exist'
+            new_command = '*دستور جدید تنظیم شد!*\n&&&1\n&&&2',
+            no_commands = 'دستوری تنظیم نشده است💈',
+            commands_list = 'لیست *دستورات مشخص*:\n&&&1',
+            command_deleted = '&&&1 دستور به درستی پاک شد✅',
+            command_empty = '&&&1 دستور پیدا نشد⛔'
         },
         help = {
             mods = {
                 banhammer = "*Moderators: banhammer powers*\n\n"
-                            .."`/kick [by reply|username]` = kick a user from the group (he can be added again).\n"
-                            .."`/ban [by reply|username]` = ban a user from the group (also from normal groups).\n"
-                            .."`/tempban [minutes]` = ban an user for a specific amount of minutes (minutes must be < 10.080, one week). For now, only by reply.\n"
-                            .."`/unban [by reply|username]` = unban the user from the group.\n"
+                            .."`/kick [by reply|username]` = اخراج فرد از گروه.\n"
+                            .."`/ban [by reply|username]` = اخراج بدون بازگشت.\n"
+                            .."`/tempban [minutes]` = بن کردن با میزان مشخص میزان اندازه گیری دقیقه است. For now, only by reply.\n"
+                            .."`/unban [by reply|username]` = حذف فرد از حالت بن.\n"
                             .."`/getban [by reply|username]` = returns the *global* number of bans/kicks received by the user. Divided in categories.\n"
                             .."`/status [username]` = show the current status of the user `(member|kicked/left the chat|banned|admin/creator|never seen)`.\n"
-                            .."`/banlist` = show a list of banned users. Includes the motivations (if given during the ban)\n"
-                            .."`/banlist -` = clean the banlist.\n"
+                            .."`/banlist` =  نشان دادن لیست افراد بن شده🚩\n"
+                            .."`/banlist -` = پاک سازی لیست بن شده ها⭐.\n"
                             .."\n*Note*: you can write something after `/ban` command (or after the username, if you are banning by username)."
                             .." This comment will be used as the motivation of the ban.",
                 info = "*Moderators: info about the group*\n\n"
-                        .."`/setrules [group rules]` = set the new regulation for the group (the old will be overwritten).\n"
+                        .."`/setrules [group rules]` =  تنظیم قوانین گروه🔗.\n"
                         .."`/addrules [text]` = add some text at the end of the existing rules.\n"
                         .."`/setabout [group description]` = set a new description for the group (the old will be overwritten).\n"
                         .."`/addabout [text]` = add some text at the end of the existing description.\n"
